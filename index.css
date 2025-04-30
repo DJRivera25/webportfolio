@@ -238,6 +238,10 @@ a {
 
 @media (max-width: 1024px) {
 
+    a {
+        text-underline-offset: 1px;
+    }
+
     .landing-section {
         height: auto; 
         padding-top: 2rem;
@@ -275,6 +279,8 @@ a {
     .form-600 {
         width: auto;
     }
+
+
 }
 
 @media (max-width: 576px) {
